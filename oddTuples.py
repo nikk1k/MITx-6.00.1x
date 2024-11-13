@@ -4,10 +4,9 @@
 # then evaluating oddTuples on this input would return the tuple ('I', 'a', 'tuple').
 
 def oddTuples(aTup):
-  """
-  aTup: a tuple
-  returns: tuple, every other element of aTup. 
-  """
+    """aTup: a tuple
+    returns: tuple, every other element of aTup.
+    """
     i = 0
     secondTuple = ()
     for index in aTup:
